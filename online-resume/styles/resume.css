@@ -1,9 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(219, 228, 231);
+    color: rgb(91, 91, 155);
+
+}
+
+#main_container {
+    width: 100%;
+    margin: 0;
+    }
+
+
+#section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    border: 2px solid #6ac1e9;
+   
+}
+
+.box {
+
+    border: 1px solid #bb84a6;
+    padding: 5px;
+    margin: 5px;
     
+}
+
+#image_box {
+    text-align: left;
+    flex: 1;
+    border: 2px solid rgb(124, 230, 172);
+}
+
+#general_info_box {
+    font-weight: normal;
+    text-align: left;
+    flex: 1;
+    border: 2px solid rgb(124, 230, 172);
     
+}
+
+#biography_box {
     
-    div {
-            width: 300px;
-            border: 15px lightblue;
-            padding: 30px;
-            margin: 20px;
-        }
+    width: 100%;
+    border: 2px solid rgb(124, 230, 172);
+
+}
+
+#section2 {
+    width: 1300px;
+    padding: 10px;
+    border: 2px solid rgb(66, 38, 104);
+}
+
+.section-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-content {
+    flex-basis: 49%;
+    margin: 0;
+    border: 2px solid #e91919;
+  }
+
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
